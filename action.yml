@@ -1,0 +1,11 @@
+name: "Label"
+description: "Handle pull requests label"
+author: "Kitabisa"
+inputs:
+  milliseconds:
+    description: "Waiting time in milliseconds"
+    default: "1000"
+    required: false
+runs:
+  using: "node12"
+  main: "dist/index.js"
